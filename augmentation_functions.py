@@ -7,7 +7,7 @@ import albumentations as A
 import math
 
 
-class MyAugmentation:
+class CustomAugmentation:
     def __init__(self, images, width, height, channels, batch_size):
         self.images = images
         self.width = width
