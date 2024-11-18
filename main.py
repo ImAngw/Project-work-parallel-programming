@@ -1,4 +1,4 @@
-from augmentation_functions import MyAugmentation, ParallelAlbumentation
+from augmentation_functions import CustomAugmentation, ParallelAlbumentation
 from PIL import Image
 import time
 import numpy as np
